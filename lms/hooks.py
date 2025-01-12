@@ -4,7 +4,7 @@ app_name = "frappe_lms"
 app_title = "AiBizzApp LMS"
 app_publisher = "AiBizzHub"
 app_description = "AiBizzApp LMS App"
-app_icon_url = "/assets/lms/images/lms-logo.png"
+app_icon_url = "/assets/lms/images/lms-logo.svg"
 app_icon_title = "Learning"
 app_icon_route = "/lms"
 app_color = "grey"
@@ -238,7 +238,7 @@ on_session_creation = "lms.overrides.user.on_session_creation"
 add_to_apps_screen = [
 	{
 		"name": "lms",
-		"logo": "/assets/lms/images/lms-logo.png",
+		"logo": "/assets/lms/images/lms-logo.svg",
 		"title": "Learning",
 		"route": "/lms",
 		"has_permission": "lms.lms.api.check_app_permission",
